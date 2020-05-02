@@ -12,7 +12,7 @@ console.log('|---------|--------------|')
 while (threads++ < cpuCount) {
     const startTime = Date.now()
 
-    execSync('node index.js', {
+    execSync('node ./index.js', {
         env: {
             THREADS: threads
         },
