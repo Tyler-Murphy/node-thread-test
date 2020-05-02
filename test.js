@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const os = require('os')
+const path = require('path')
 const { execSync } = require('child_process')
 
 const cpuCount = os.cpus().length
@@ -12,7 +13,7 @@ console.log('|---------|--------------|')
 while (threads++ < cpuCount) {
     const startTime = Date.now()
 
-    execSync('node ./index.js', {
+    execSync(`node ${path.join(__dirname, 'index.js')}`, {
         env: {
             THREADS: threads
         },
