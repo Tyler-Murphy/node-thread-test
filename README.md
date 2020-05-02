@@ -21,6 +21,8 @@ AWS a1.metal instance with a 16 core ARM processor:
 |      15 |           13 |
 |      16 |           13 |
 
+![graph of results](https://docs.google.com/spreadsheets/d/e/2PACX-1vRIKlEJ-22sCsePFyKDdosjgT6XW8vRmnztdJscrG9ginfd1C-k_WO_z7VQvfudzb8d7uDwE7HLcaTh/pubchart?oid=1711523320&format=image)
+
 Intel i3-6100 with 2 physical cores and 4 virtual cores:
 
 | Threads | Duration (s) | Peak Memory (MB) |
