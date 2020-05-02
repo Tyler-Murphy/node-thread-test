@@ -1,5 +1,28 @@
 Results when calculating the number of prime numbers smaller than 1e8 (e.g. `THREADS=3 node index.js`)
 
+AWS a1.metal instance with a 16 core ARM processor:
+
+| Threads | Duration (s) |
+|---------|--------------|
+|       1 |          169 |
+|       2 |           86 |
+|       3 |           57 |
+|       4 |           43 |
+|       5 |           35 |
+|       6 |           29 |
+|       7 |           26 |
+|       8 |           23 |
+|       9 |           20 |
+|      10 |           18 |
+|      11 |           17 |
+|      12 |           16 |
+|      13 |           15 |
+|      14 |           14 |
+|      15 |           13 |
+|      16 |           13 |
+
+Intel i3-6100 with 2 physical cores and 4 virtual cores:
+
 | Threads | Duration (s) | Peak Memory (MB) |
 |---------|--------------|------------------|
 | 1       | 55           | 43               |
