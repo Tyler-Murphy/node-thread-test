@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "worker-threads-pool": "^2.0.0"
-  }
+  },
+  "bin": "./test.js"
 }
